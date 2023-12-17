@@ -83,11 +83,11 @@
 
         fn {
             bindings = <
-&kp F1  &kp F2          &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9            &kp F10              &kp F11       &kp F12
-&trans  &kp ES_AT_SIGN  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans            &trans               &trans        &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans            &trans               &trans        &trans
-&trans  &trans          &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_SLASH  &trans
-&trans  &trans          &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans            &trans               &trans        &trans
+&kp F1  &kp F2          &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9            &kp F10              &kp F11           &kp F12
+&trans  &kp ES_AT_SIGN  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans            &trans               &trans            &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans            &trans               &trans            &trans
+&trans  &trans          &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_BACKSLASH  &trans
+&trans  &trans          &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans            &trans               &trans            &trans
             >;
         };
 
