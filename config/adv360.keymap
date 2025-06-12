@@ -8,12 +8,10 @@
  * This file was generated automatically. You may or may not want to
  * edit it directly.
  */
-
-#include <behaviors.dtsi>
-
 // #include "keys_es.h"
 
 #include "keys_es_latin_american.h"
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -83,11 +81,11 @@
 
         fn {
             bindings = <
-&kp F1  &kp F2          &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9            &kp F10              &kp F11           &kp F12
-&trans  &kp ES_AT_SIGN  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans            &trans               &trans            &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans            &kp ES_ASTRK         &trans            &trans
-&trans  &trans          &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_BACKSLASH  &trans
-&trans  &trans          &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans            &trans               &trans            &trans
+&kp F1  &kp F2          &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                         &mo 3   &kp F7  &kp F8  &kp F9            &kp F10              &kp F11           &kp F12
+&trans  &kp ES_AT_SIGN  &trans  &trans  &trans  &trans  &none                                          &none   &trans  &trans  &trans            &trans               &trans            &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &none   &kp ENTER  &trans      &trans  &trans  &trans  &trans  &trans  &trans            &kp ES_ASTRK         &trans            &trans
+&trans  &trans          &trans  &trans  &trans  &trans                     &trans      &trans                  &trans  &trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_BACKSLASH  &trans
+&trans  &trans          &trans  &trans  &trans          &trans  &trans     &trans      &trans  &trans  &trans          &trans  &trans            &trans               &trans            &trans
             >;
         };
 
